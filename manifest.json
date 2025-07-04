@@ -1,0 +1,34 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "World Border v1.0.0",
+        "description": "ワールドボーダー。ただそれだけ。",
+        "min_engine_version": [1,21,10],
+        "uuid": "d6878fac-35a5-4f31-bfb7-7231ee52c6fd",
+        "version": [1,0,0]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "3f97d7af-31da-4878-909f-92e033b8cdf1",
+            "version": [1,0,0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "d74574eb-0a0d-44ac-ae95-c0c3e0c1753f",
+            "entry": "scripts/main.js",
+            "version": [1,0,0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.0.0-alpha"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.0.0-alpha"
+        }
+    ]
+}
