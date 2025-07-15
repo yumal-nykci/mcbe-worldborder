@@ -1,3 +1,4 @@
 # mcbe-worldborder
 ワールドボーダ_BE
 主の環境が変わったためメンテできなくなったマイクラ統合版アドオン「worldborder_mcbe」のソスコを投げときます
+codeからダウンロードしたzipをmcaddonに変えるとインポートできるはず。
